@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Colors Desafio I</title>
+  </head>
+  <body>
+    <div class="controls">
+      <h1>Colors</h1>
+      <div class="red container">
+        <h3>Red (R)</h3>
+        <input type="range" id="redSValue" value="0" min="0" max="255" />
+        <h4 id="redValue">0</h4>
+      </div>
+
+      <div class="green container">
+        <h3>Green (G)</h3>
+        <input type="range" id="greenSValue" value="0" min="0" max="255" />
+        <h4 id="greenValue">0</h4>
+      </div>
+
+      <div class="blue container">
+        <h3>Blue (B)</h3>
+        <input type="range" id="blueSValue" value="0" min="0" max="255" />
+        <h4 id="blueValue">0</h4>
+      </div>
+    </div>
+    <div class="rgbValue container">
+      <div id="colorSValue"></div>
+      <p id="rgbValue"></p>
+    </div>
+    <div class="hexaValue container">
+      <p id="hexaValue"></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
